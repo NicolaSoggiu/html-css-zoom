@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 /* header */
 
 header {
     width: 100%;
-    background-color: black;
     height: 3rem;
     display: flex;
     justify-content: flex-end;
@@ -35,9 +38,42 @@ header {
 
 main{
     width:90%;
-    height: 1000px;
     margin-inline: auto;
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+
+.img{
+    display: flex;
+    height: max-content;
+    margin-bottom: .5rem;
+    position: relative;
+}
+
+.text, .fa-microphone-slash{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(74, 69, 69, 0.4);
+    padding: .4rem;
+    line-height: 1rem;
+}
+
+
+.text{
+    left: 1.5rem;
+}
+
+
+.last-row{
+    width: 90%;
+    gap: .8rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 /* footer */
