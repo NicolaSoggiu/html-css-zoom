@@ -19,10 +19,14 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+    background-color: black;
 }
 
 .fa-solid{
     color: white;
+    padding-left: .5rem;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .fa-table-cells, .fa-maximize {
@@ -38,11 +42,13 @@ header {
 
 main{
     width:90%;
+    height: 78vh;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 4rem;
+    overflow-y: scroll;
 }
 
 
@@ -64,51 +70,76 @@ main{
 
 
 .text{
-    left: 1.5rem;
-}
-
-
-.last-row{
-    width: 90%;
-    gap: .8rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
+    left: 1.8rem;
 }
 
 /* footer */
 
 footer {
-    height: 4rem;
     width: 100%;
-    background-color: #243D55;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+    color: white;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+footer > *{
+    font-size: 1rem;
+}
+
 .footer-left{
+    flex: 0 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .footer-center{
+    flex: 0 0 auto;
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding-right: 2rem;
 }
 
 .footer-right{
-    justify-content: flex-end;
-    margin-right: 2rem;
+    flex: 0 0 auto;
+    color: red;
+    display: flex;
+    background-color: rgb(78, 74, 74);
+    padding: 2rem
+
 }
 
 .mic, .video{
     display: flex;
     flex-direction: column;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-bottom: .2rem;
+    padding-top: .5rem;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.text-footer{
+    font-size: 1rem;
+}
+
+
+.icon > .fa-solid{
+    font-size: 1.2rem;
+}
+
+.icon > .fa-chevron-up{
+    font-size: 1rem;
 }
