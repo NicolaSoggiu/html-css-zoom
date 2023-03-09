@@ -28,12 +28,18 @@ header {
     font-size: 1rem;
 }
 
-.fa-table-cells, .fa-maximize {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-table-cells, .fa-maximize, a {
     font-size: .8rem;
     margin-inline: .2rem;
     background-color: #454C55;
-    border-radius: 10px;
-    padding: .5rem;
+    border-radius: 5px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     margin-top: .4rem;
 }
 
