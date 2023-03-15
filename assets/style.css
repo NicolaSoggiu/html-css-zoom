@@ -26,6 +26,7 @@ header {
     color: white;
     text-align: center;
     font-size: 1rem;
+    padding-bottom: .4rem;
 }
 
 a {
@@ -34,7 +35,7 @@ a {
 }
 
 .fa-table-cells, .fa-maximize, a {
-    font-size: .8rem;
+    font-size: .9rem;
     margin-inline: .2rem;
     background-color: #454C55;
     border-radius: 5px;
@@ -52,8 +53,8 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 4rem;
-    overflow-y: scroll;
+    margin-top: 3.7rem;
+    overflow-y: auto;
 }
 
 
@@ -73,6 +74,8 @@ main{
     line-height: 1rem;
 }
 /* footer */
+
+/* capire e sistemare come impostare l'altezza del footer con vh senza sballare tutto quanto */
 
 footer {
     width: 100%;
@@ -108,7 +111,7 @@ footer > *{
     color: red;
     display: flex;
     background-color: rgb(78, 74, 74);
-    padding: 2rem
+    padding: 2.2rem
 
 }
 
@@ -140,5 +143,5 @@ footer > *{
 }
 
 .icon > .fa-chevron-up{
-    font-size: 1rem;
+    font-size: .7rem;
 }
